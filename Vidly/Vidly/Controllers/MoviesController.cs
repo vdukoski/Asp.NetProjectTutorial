@@ -27,9 +27,6 @@ namespace Vidly.Controllers
                 Customers = customers
             };
                 return View(viewModel);
-            //    return Content("Hello World");
-            //    return HttpNotFound();
-            //    return new EmptyResult();
             }
 
             public ActionResult Edit (int Id)
@@ -37,23 +34,66 @@ namespace Vidly.Controllers
             return Content($"id= {Id}");
         }
 
+        public ViewResult Index()
+        {
+            var movies = GetMovies();
+            return View(movies);
+        }
+
+        IEnumerable<Movie> GetMovies()
+        {
+            return new List<Movie>
+            {
+                new Movie{Id=1, Name="The Dark Knigh"},
+                new Movie{Id=1, Name="The Dark Knigh Rises"}
+            };
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         //movies
-        public ActionResult Index(int? pageIndex, string sortBy)
-        {
-            if (!pageIndex.HasValue)
-                pageIndex = 1;
+        //public ActionResult Index(int? pageIndex, string sortBy)
+        //{
+        //    if (!pageIndex.HasValue)
+        //        pageIndex = 1;
 
-            if (String.IsNullOrWhiteSpace(sortBy))
-                sortBy = "Name";
+        //    if (String.IsNullOrWhiteSpace(sortBy))
+        //        sortBy = "Name";
 
-            return Content($"pageIndex={pageIndex}&sortBy={sortBy}");
-        }
+        //    return Content($"pageIndex={pageIndex}&sortBy={sortBy}");
+        //}
 
-        [Route("movies/released/{year}/{month:regex(\\d{2}):range(1,12)}")]
-        public ActionResult ByReleaseYear(int year, int month)
-        {
-            return Content($"{year}/{month}");
-        }
+        //[Route("movies/released/{year}/{month:regex(\\d{2}):range(1,12)}")]
+        //public ActionResult ByReleaseYear(int year, int month)
+        //{
+        //    return Content($"{year}/{month}");
+        //}
+
+
+        //public ActionResult Details(int id)
+        //{
+        //    var movies = GetMovies().SingleOrDefault(x => x.Id == id);
+        //    if (movies == null)
+        //        return HttpNotFound();
+
+        //    return View(movies);
+
+        //}
 
     }
 }
