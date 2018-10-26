@@ -118,3 +118,9 @@ C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.csproj
 C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AplyAnnotationsToCustomerName.resources
