@@ -124,3 +124,6 @@ C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrat
 C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AplyAnnotationsToCustomerName.resources
+C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
+C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetNameOfMembershipTypes.resources
+C:\Users\User5570\Desktop\MoshTutorialProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateToCustomer.resources

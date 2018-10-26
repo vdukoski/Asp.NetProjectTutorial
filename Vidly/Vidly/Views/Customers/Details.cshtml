@@ -8,3 +8,10 @@
 
 <p>Details test ok</p>
 
+<ul>
+    <li>Membership Type: @Model.MembershipType.Name</li>
+    @if (Model.BirthDate.HasValue)
+    {
+        <li>BirthDate: @Model.BirthDate.Value.ToShortDateString()</li>
+    }
+</ul>
