@@ -1,10 +1,14 @@
-﻿@model  IEnumerable<Vidly.Models.Movie> 
+﻿@model  IEnumerable<Vidly.Models.Movie>
 @{
     ViewBag.Title = "Movies";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Movies</h2>
+<p>
+    @Html.ActionLink("New Movie", "New", "Movies", null, new { @class = "btn btn-primary" })
+</p>
+
 
 <table class="table table-bordered table-hover">
     <thead>
@@ -18,9 +22,12 @@
         {
             <tr>
 
-                <td> @Html.ActionLink(movie.Name, "Details", "Movies", new { id = movie.Id }, null) </td>
+
+                <td>@Html.ActionLink(movie.Name, "Edit", "Movies", new { id = movie.Id }, null)</td>
                 <td> @movie.Genre.Name </td>
             </tr>
         }
     </tbody>
 </table>
+
+@Html.AntiForgeryToken()
