@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
 namespace Vidly.Dtos
 {
@@ -16,6 +13,8 @@ namespace Vidly.Dtos
 
         [Required]
         public byte GenreId { get; set; }
+
+        public GenreDto Genre { get; set; }
 
         public DateTime ReleaseDate { get; set; }
 
